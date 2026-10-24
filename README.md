@@ -49,15 +49,12 @@ The raw dataset is excluded from Git to avoid committing a large source file. Th
 ```text
 Analytics-Report-Insights/
 ├── data/
-│   ├── .gitkeep
 │   └── Online Retail.xlsx        # Download separately; Git-ignored
 ├── notebooks/
 │   └── ecommerce_sales_analysis.ipynb
 ├── reports/
 │   ├── Executive_Summary.md
 │   └── Business_Analytics_Report.md
-├── visuals/
-│   └──                         # Exported charts and dashboard
 ├── .gitignore
 └── README.md
 ```
